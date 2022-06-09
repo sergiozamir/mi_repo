@@ -168,3 +168,26 @@ h3 {
 
     
 }
+
+#divgradiente {
+    width: 50%;
+    height: 780px;
+    background: linear-gradient(to top, green, yellow );
+
+}
+
+#divfondo {
+    width: 400px;
+    height: 200px;
+    z-index: -1;
+    border: solid 4px green;
+
+}
+
+.divtrasform {
+    transform: translate(100px, 25px);
+    transform: rotate(25deg);
+    
+}
+
+
