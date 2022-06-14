@@ -3,77 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Restaurante bar - La Ramona</title>
 
-    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="estilos/estilos.css">
     
 </head>
 <body>
-    
+    <header>
 
-    <div id="divfondo">
-
-        <div class="divtrasform">
-             <img src="multimedia/logo.png" alt="logo" class="headering">
-        </div>
-    </div>   
-                <h1>Contacto</h1>
-
-                    <nav class="navegacion">
-                            <ul class="menu">
-                            <li><a href="index.html"> Inicio</a></li>
-                            <li><a href="contacto.html"> Contacto</a></li>
-                            <li><a href="menu.html"> Menu</a></li>
-                            <li><a href="nosotros.html"> Nosotros</a></li>
-                            <li><a href="domicilios.html"> Domicilio</a></li>
-                             </ul>
-
-                      </nav>
-    
-     <div id="divgradiente"> 
-
-                           <h3>Formulario</h3>
+        <div class="container-fluid">
             
-                    <section>
-                      <article>
-    
-                            <form action="" method="" enctype="multipart/form-data">
-                            <fieldset>
-                            <legend>Infromacion personal</legend>
-    
-                            <label for="nombre_apellido">Nombre:</label>
-                            <input name="nombre" type="text" placeholder="nombre">
-    
-                             <br>
-                            <label for="correo elctronico">Correo electronico:</label>
-                            <input name="nombre" type="text" placeholder="correo electronico">
-    
-                            <br>
-                            <label for="mensaje">Mensaje:</label>
-                            <textarea form="text" id="" cols="30" rows="10" placeholder="mensaje"></textarea>
-    
-                            <input type="submit" value="enviar"/>
-                            </fieldset>
-    
-                         </form>
-    
-    
-                        </article>
-                    </section>
-     </div>
-    
-    <footer>
+            <div class="row">
+
+
+                   <img src="multimedia/logo.png" alt="logo" class="headering">
+            </div>
+            
         
-        <ul class="menufoot">
-            <li>Direccion</li>
-            <li>Telefono</li>
-            <li>Colombia</li>
-        </ul>
+
+            <div class="row">    
+                 <h1>Contacto</h1>
+            </div>   
+
+            <div class="row"> 
+                 <nav class="navegacion">
+                    <ul class="menu">
+                      <li><a href="index.html"> Inicio</a></li>
+                      <li><a href="contacto.html"> Contacto</a></li>
+                      <li><a href="menu.html"> Menu</a></li>
+                      <li><a href="nosotros.html"> Nosotros</a></li>
+                      <li><a href="domicilios.html"> Domicilio</a></li>
+                    </ul>
+                  </nav>
+            </div>
+        </div>
+    </header>
+
+    <h3>Formulario</h3>
+            
+    <section>
+        <article>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="row g-3">
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                        </div>
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                        </div>
+                      </div>
+                      <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Correo elctronico</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text"></div>
+                        </div>
+                       </form>
+                       <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mnsaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <input class="btn btn-primary" type="submit" enviar="">
+                </div>
+            </div>>
+        </article>
+
+    </section>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
 
-        <h3>Todos los derechos reservados</h3>
-            <h3>hecho por sergio zamir rodriguez</h3>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+               <ul class="menufoot">
+                 <li>Direccion</li>
+                 <li>Telefono</li>
+                 <li>Colombia</li>
+               </ul>
+            
+
+                <h3>Todos los derechos reservados</h3>
+                <h3>hecho por sergio zamir rodriguez</h3>
+            </div>   
+        </div>
     </footer>
 </body>
 </html>
