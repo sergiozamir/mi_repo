@@ -2,7 +2,7 @@
 
 
  
-.headering {
+/*.headering {
     margin: 30px;
 
     padding-top: 10px;
@@ -11,7 +11,7 @@
     padding-bottom: 20;
 
     border: solid 10px black
-}
+}*/
 
 h1 {
 
@@ -54,15 +54,17 @@ ul li a{
     text-align: right;
 }
 
+.menu a:active {
+    background-color: yellow;
+}
 
-
-.domicilios{
+/*.domicilios{
 
     background-color: yellow;
     width: 500px
     text aline: center
 
-}
+}*/
 
 
 .navegacion{
@@ -155,4 +157,19 @@ h3 {
 
 }
 
-    
+@media (min-width: 576px) {}   
+
+@media (min-width: 760px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}
+
+
+.btn-btn-primary a:visited {
+    background-color: white;
+
+}
+
