@@ -1,10 +1,22 @@
 @import "colores";
- 
+
 section {
     background-color: $colorprimario;
-  }
+}
    
+footer{
+   background-color: $colorfooter;
 
+}
+
+header{
+    background-color: $colorheader;
+
+}
+
+nav{
+    background-color: $colornav;
+}
 
 
 
