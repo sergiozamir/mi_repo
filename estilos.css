@@ -1,9 +1,13 @@
+@import url("https://fonts.googleapis.com/css2? familia= Poppins:ital,peso@0,400;0,500;1,500 & display=swap");
 section {
   background-color: #ef2b2d;
+  font-family: "Poppins", sans-serif;
 }
 
 footer {
   background-color: #af2626;
+  font-family: "Poppins", sans-serif;
+  color: white;
 }
 
 header {
@@ -12,131 +16,77 @@ header {
 
 nav {
   background-color: #af2626;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
 }
 
-/*.headering {
-    margin: 30px;
+.card-img-top {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-    padding-top: 10px;
-    padding-left: 15px;
-    padding-right: 25px;
-    padding-bottom: 20;
-
-    border: solid 10px black
-}*/
-h1 {
-  text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+.container-fluid nav ul li a {
+  text-decoration: none;
   color: white;
 }
 
-p {
-  color: red;
-  font-size: 21px;
-  font-family: "Times New Roman", Times, serif;
-  text-align: center;
+ion-icon {
+  color: white;
+  width: 4rem;
+  height: 4rem;
 }
 
-.parrafoverde {
-  color: white;
-  font-style: italic;
-  font-family: Arial, Helvetica, sans-serif;
-  
+.card-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ef2b2d;
+  text-decoration: none;
+  text-align: center;
 }
 
 ul {
-  list-style-type: none;
-}
-
-ul li a {
   text-decoration: none;
-  color: blue;
+  list-style-type: none;
+  text-align: center;
 }
 
-.menu {
-  background-color: burlywood;
-  text-align: right;
+h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
 }
 
-.menu a:active {
-  background-color: yellow;
+h4 {
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
 }
 
-/*.domicilios{
-
-    background-color: yellow;
-    width: 500px
-    text aline: center
-
-}*/
-.navegacion {
-  background-color: beige;
-}
-
-.menu li {
-  display: inline-block;
-  position: relative;
-  padding: 10px;
+.parraindex {
+  color: white;
+  font-style: italic;
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  font-size: 16px;
 }
 
 .menufoot {
-  font-style: italic;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 21px;
+  font-size: 16px;
   text-align: center;
 }
 
 h3 {
+  color: white;
   text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 
-.caja {
-  background-color: red;
-  border: 4px solid white;
-}
-
-.grid-layout {
-  background-color: black;
-  display: grid;
-  grid-template-columns: 1000px 1000px;
-  grid-template-rows: auto auto;
-}
-
-.c1 {
-  background-color: blue;
-  grid-column: 1/3;
-}
-
-.c2 {
-  grid-column: 1/3;
-}
-
-.c3 {
-  grid-column: 1/3;
-}
-
-.c4 {
-  grid-column: 1000px;
-}
-
-.c5 {
-  grid-column: 1000px;
-}
-
-.c6 {
-  grid-column: 1000px;
-}
-
-.c7 {
-  grid-column: 1000px;
-}
-
-.c8 {
-  grid-column: 1/3;
-}
-
-.c9 {
-  grid-column: 1/3;
+a {
+  text-decoration: none;
 }
 
 .btn-btn-primary a:visited {
