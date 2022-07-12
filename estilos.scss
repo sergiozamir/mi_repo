@@ -87,12 +87,18 @@ h4 {
 
 }
 
-.parraindex{
+.parraindex {
     color: $colorfuente;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
     text-align: justify;
     font-size: 16px;
+}
+
+.card-text {
+    text-align: justify;
+    font-size: 14px;
+    
 }
 
 
@@ -130,3 +136,4 @@ a {
     background-color: white;
 
 }
+

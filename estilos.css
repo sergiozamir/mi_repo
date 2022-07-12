@@ -74,6 +74,11 @@ h4 {
   font-size: 16px;
 }
 
+.card-text {
+  text-align: justify;
+  font-size: 14px;
+}
+
 .menufoot {
   font-size: 16px;
   text-align: center;
