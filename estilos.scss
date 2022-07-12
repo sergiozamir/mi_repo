@@ -8,25 +8,25 @@
 
 section {
     background-color: $colorprimario;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
    
 footer{
-   background-color: $colorfooter;
-   font-family: 'Poppins', sans-serif;
+   background-color: $colorsecundario;
+   font-family: "Poppins", sans-serif;
    color: $colorfuente;
 
 }
 
 header{
-    background-color: $colorheader;
+    background-color: $colorprimario;
     
 
 }
 
 nav {
-    background-color: $colornav;
-    font-family: 'Poppins', sans-serif;
+    background-color: $colorsecundario;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
      
 }
@@ -47,21 +47,23 @@ nav {
     }
     
 ion-icon {
-    color: white;
+    color: $colorfuente;
     width: 4rem;
     height: 4rem;
     
 }
 
 .card-text {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: $colorprimario;
     text-decoration: none;
-    text-align: center;
+
     
 }
+
+
 
 ul {
     text-decoration: none;
@@ -74,7 +76,7 @@ ul {
 h1 {
 
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     color: $colorfuente;
 
 }
@@ -82,7 +84,7 @@ h1 {
 h4 {
     color: $colorfuente;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family:"Poppins", sans-serif;
     font-size: 14px;
 
 }
@@ -90,7 +92,7 @@ h4 {
 .parraindex {
     color: $colorfuente;
     font-style: italic;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     text-align: justify;
     font-size: 16px;
 }
@@ -102,7 +104,10 @@ h4 {
     
 }
 
+.card-body {
+    text-align: center;
 
+}
 
 .menufoot {
 
@@ -111,15 +116,25 @@ h4 {
 
 }
 
+.container {
+    border: solid 3px;
+}
 
 h3 {
     color: $colorfuente;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 a {
     text-decoration: none;
+    
+}
+
+. {
+    height: 50%;
+    
+
 }
 
 @media (min-width: 576px) {}   

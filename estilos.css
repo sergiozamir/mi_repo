@@ -44,7 +44,6 @@ ion-icon {
   font-weight: bold;
   color: #ef2b2d;
   text-decoration: none;
-  text-align: center;
 }
 
 ul {
@@ -80,9 +79,17 @@ h4 {
   color: #ef2b2d;
 }
 
+.card-body {
+  text-align: center;
+}
+
 .menufoot {
   font-size: 16px;
   text-align: center;
+}
+
+.container {
+  border: solid 3px;
 }
 
 h3 {
@@ -93,6 +100,10 @@ h3 {
 
 a {
   text-decoration: none;
+}
+
+.carousel-slide {
+  height: 50%;
 }
 
 .btn-btn-primary a:visited {
