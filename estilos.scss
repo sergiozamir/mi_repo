@@ -55,16 +55,29 @@ ion-icon {
     
 }
 
+ion-icon:hover {
+    color: black;
+}
+
 .card-text {
-    font-family: "Poppins", sans-serif;
+    font-family: $fuenteprincipal;
     font-size: 20px;
     font-weight: bold;
     color: $colorprimario;
-    text-decoration: none;
-
     
 }
 
+.card-text:hover {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.nav-link:hover{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
 
 
 ul {
@@ -150,4 +163,18 @@ a {
     background-color: white;
 
 }
+
+.whatsapp {
+    position: fixed;
+    right: 20px;
+    bottom: 15px;
+    z-index: 1;
+    color: black;
+    background-color: #25D366;
+    border-radius: 10px;
+    height: 65px;
+    
+}
+
+
 

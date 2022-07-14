@@ -38,12 +38,26 @@ ion-icon {
   height: 4rem;
 }
 
+ion-icon:hover {
+  color: black;
+}
+
 .card-text {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: bold;
   color: #ef2b2d;
+}
+
+.card-text:hover {
   text-decoration: none;
+  color: black;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 ul {
@@ -104,4 +118,15 @@ a {
 
 .btn-btn-primary a:visited {
   background-color: white;
+}
+
+.whatsapp {
+  position: fixed;
+  right: 20px;
+  bottom: 15px;
+  z-index: 1;
+  color: black;
+  background-color: #25D366;
+  border-radius: 10px;
+  height: 65px;
 }/*# sourceMappingURL=estilos.css.map */
