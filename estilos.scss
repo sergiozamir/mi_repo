@@ -5,15 +5,17 @@
 
 @import "colores";
 
+@import "fuentes";
+
 
 section {
     background-color: $colorprimario;
-    font-family: "Poppins", sans-serif;
+    font-family: $fuenteprincipal;
 }
    
 footer{
    background-color: $colorsecundario;
-   font-family: "Poppins", sans-serif;
+   font-family: $fuenteprincipal;
    color: $colorfuente;
 
 }
@@ -26,7 +28,7 @@ header{
 
 nav {
     background-color: $colorsecundario;
-    font-family: "Poppins", sans-serif;
+    font-family: $fuenteprincipal;
     font-size: 16px;
      
 }
@@ -76,7 +78,7 @@ ul {
 h1 {
 
     text-align: center;
-    font-family: "Poppins", sans-serif;
+    font-family: $fuenteprincipal;
     color: $colorfuente;
 
 }
@@ -84,7 +86,7 @@ h1 {
 h4 {
     color: $colorfuente;
     text-align: center;
-    font-family:"Poppins", sans-serif;
+    font-family: $fuenteprincipal;
     font-size: 14px;
 
 }
@@ -92,7 +94,7 @@ h4 {
 .parraindex {
     color: $colorfuente;
     font-style: italic;
-    font-family: "Poppins", sans-serif;
+    font-family: $fuenteprincipal;
     text-align: justify;
     font-size: 16px;
 }
@@ -123,7 +125,7 @@ h4 {
 h3 {
     color: $colorfuente;
     text-align: center;
-    font-family: "Poppins", sans-serif;
+    font-family:$fuenteprincipal;
 }
 
 a {
@@ -131,11 +133,7 @@ a {
     
 }
 
-. {
-    height: 50%;
-    
 
-}
 
 @media (min-width: 576px) {}   
 
