@@ -36,6 +36,7 @@ nav {
 
 body {
     width: 100%;
+    
 }
 
 .card-img-top{
@@ -114,7 +115,8 @@ h4 {
     font-style: italic;
     font-family: $fuenteprincipal;
     text-align: justify;
-    font-size: 14px;
+    font-size: 16px;
+    
     
 }
 
@@ -154,7 +156,9 @@ a {
 
 
 
-@media (min-width: 576px) {}
+@media (max-width: 576px) {}
+
+  
 
 @media (min-width: 760px) {}
 
