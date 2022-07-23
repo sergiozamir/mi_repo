@@ -8,7 +8,6 @@ footer {
   background-color: #af2626;
   font-family: "Poppins", sans-serif;
   color: white;
-  width: 100%;
 }
 
 header {
@@ -25,7 +24,7 @@ body {
   width: 100%;
 }
 
-.card-img-top {
+.card-img-top-domicilios {
   width: 90%;
   display: block;
   margin-left: auto;
@@ -119,10 +118,6 @@ h3 {
 
 a {
   text-decoration: none;
-}
-
-.btn-btn-primary a:visited {
-  background-color: white;
 }
 
 .whatsapp {

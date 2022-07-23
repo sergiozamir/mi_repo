@@ -17,7 +17,7 @@ footer{
    background-color: $colorsecundario;
    font-family: $fuenteprincipal;
    color: $colorfuente;
-   width: 100%;
+  
 
 }
 
@@ -39,7 +39,7 @@ body {
     
 }
 
-.card-img-top{
+.card-img-top-domicilios {
     width: 90%;
     display: block;
     margin-left: auto;
@@ -160,19 +160,16 @@ a {
 
   
 
-@media (min-width: 760px) {}
+@media (max-width: 760px) {}
 
 @media (min-width: 992px) {}
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+}
 
 @media (min-width: 1400px) {}
 
 
-.btn-btn-primary a:visited {
-    background-color: white;
-
-}
 
 .whatsapp {
     position: fixed;
