@@ -22,6 +22,7 @@ nav {
 
 body {
   width: 100%;
+  background-color: #ef2b2d;
 }
 
 .card-img-top-domicilios {
@@ -120,6 +121,22 @@ a {
   text-decoration: none;
 }
 
+@media (max-width: 576px) {
+  .imagenind1 {
+    width: 24rem;
+  }
+  .imagenind2 {
+    width: 25rem;
+  }
+}
+@media (max-width: 766px) {
+  .imagenind1 {
+    width: 35rem;
+  }
+  .imagenind2 {
+    width: 33rem;
+  }
+}
 .whatsapp {
   position: fixed;
   right: 20px;

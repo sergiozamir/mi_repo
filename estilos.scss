@@ -36,6 +36,7 @@ nav {
 
 body {
     width: 100%;
+    background-color: $colorprimario;  
     
 }
 
@@ -118,6 +119,7 @@ h4 {
     font-size: 16px;
     
     
+    
 }
 
 .card-text-nosotros {
@@ -156,11 +158,29 @@ a {
 
 
 
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .imagenind1 {
+        width: 24rem;
+    }
+
+    .imagenind2 {
+        width: 25rem;
+    }
+
+}
 
   
+@media (max-width: 766px) {
+    .imagenind1 {
+        width: 35rem;
+    }
 
-@media (max-width: 760px) {}
+    .imagenind2 {
+        width: 33rem;
+    }
+
+    
+}
 
 @media (min-width: 992px) {}
 
@@ -183,6 +203,7 @@ a {
   
     
 }
+
 
 
 
