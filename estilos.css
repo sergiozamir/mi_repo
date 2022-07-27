@@ -23,6 +23,7 @@ nav {
 body {
   width: 100%;
   background-color: #ef2b2d;
+  overflow: hidden;
 }
 
 .card-img-top-domicilios {
