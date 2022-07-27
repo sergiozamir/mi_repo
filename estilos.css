@@ -12,6 +12,7 @@ footer {
 
 header {
   background-color: #ef2b2d;
+  overflow: hidden;
 }
 
 nav {
@@ -23,7 +24,6 @@ nav {
 body {
   width: 100%;
   background-color: #ef2b2d;
-  overflow: hidden;
 }
 
 .card-img-top-domicilios {
@@ -128,6 +128,9 @@ a {
   }
   .imagenind2 {
     width: 25rem;
+  }
+  .contacto {
+    height: 700px;
   }
 }
 @media (max-width: 766px) {

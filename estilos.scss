@@ -23,7 +23,7 @@ footer{
 
 header{
     background-color: $colorprimario;
-    
+    overflow: hidden;
 
 }
 
@@ -37,8 +37,9 @@ nav {
 body {
     width: 100%;
     background-color: $colorprimario;  
-    overflow: hidden;
+    
 }
+
 
 .card-img-top-domicilios {
     width: 90%;
@@ -166,8 +167,13 @@ a {
     .imagenind2 {
         width: 25rem;
     }
+   body {
+    overflow: hidden;
+   }
 
-}
+
+
+
 
   
 @media (max-width: 766px) {
