@@ -1,202 +1,152 @@
 
 @import url('https://fonts.googleapis.com/css2? familia= Poppins:ital,peso@0,400;0,500;1,500 & display=swap');
-
-
-
 @import "colores";
-
 @import "fuentes";
-
-
 section {
     background-color: $colorprimario;
     font-family: $fuenteprincipal;
 }
-   
 footer{
    background-color: $colorsecundario;
    font-family: $fuenteprincipal;
    color: $colorfuente;
-  
-
 }
-
-header{
-    background-color: $colorprimario;
-    overflow: hidden;
-
-}
-
 nav {
     background-color: $colorsecundario;
     font-family: $fuenteprincipal;
     font-size: 16px;
-     
 }
-
+.headering {
+    width: 100%;
+}
 body {
     width: 100%;
-    background-color: $colorprimario;  
-    
+    background-color: $colorprimario; 
 }
-
-
+/*TARJETA DOMICILIOS*/
 .card-img-top-domicilios {
     width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-
-
 }
-
-.container-fluid  nav ul li a{
+/*COLOR DE FUENTE DEL NAV*/
+.container-fluid  nav ul li a {
     text-decoration: none;
     color: $colorfuente;
-
     }
-    
 ion-icon {
     color: $colorfuente;
     width: 4rem;
-    height: 4rem;
-    
+    height: 4rem
 }
-
 ion-icon:hover {
     color: black;
 }
-
+/*TARJETAS MENU Y DOMICILIOS*/
 .card-text {
     font-family: $fuenteprincipal;
     font-size: 20px;
     font-weight: bold;
     color: $colorprimario;
-    
 }
-
 .card-text:hover {
     text-decoration: none;
     color: black;
-    
 }
-
 .nav-link:hover{
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
-
-
+/*QUITAR EL HOVER PREDETERMINADO DE BOOSTRAP*/
 ul {
     text-decoration: none;
     list-style-type: none;
     text-align: center;
 }
-
-
-
 h1 {
-
     text-align: center;
     font-family: $fuenteprincipal;
     color: $colorfuente;
-
 }
-
 h4 {
     color: $colorfuente;
     text-align: center;
     font-family: $fuenteprincipal;
     font-size: 14px;
-
 }
-
 .parraindex {
     color: $colorfuente;
     font-style: italic;
     font-family: $fuenteprincipal;
     text-align: justify;
     font-size: 16px;
-    
-    
-    
 }
-
 .card-text-nosotros {
     text-align: justify;
     font-size: 14px;
     color: $colorprimario;
-    
-}
 
+}
 .card-body {
     text-align: center;
-
 }
-
 .menufoot {
-
     font-size: 16px;
     text-align: center;
-
+    font-weight: bold;
 }
-
-.container {
+.contacto {
     border: solid 3px;
+    padding-bottom: 5px;
 }
-
 h3 {
     color: $colorfuente;
     text-align: center;
     font-family:$fuenteprincipal;
 }
-
 a {
     text-decoration: none;
-    
 }
-
-
-
 @media (max-width: 576px) {
     .imagenind1 {
-        width: 24rem;
+        width: 20rem;
     }
-
     .imagenind2 {
+        width: 5rem;
+    }
+    /*corrección solicitada por la profe: scroll horizontal de boostrap*/
+    .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .container-fluid{
+        padding-right: 0px;
+    }
+    .navbar {
+        width: 96.5%;
+    }
+    .headering {
+       padding-left: 0px;
+    }
+    /*correccion de la profe: hacer mas anchas las card pag nosotros*/
+    .cardnosotros {
         width: 25rem;
     }
-   body {
-    overflow: hidden;
-   }
-
-
-
-
-
-  
+}    
 @media (max-width: 766px) {
     .imagenind1 {
         width: 35rem;
     }
-
     .imagenind2 {
         width: 33rem;
     }
-
-    
 }
-
 @media (min-width: 992px) {}
-
-@media (min-width: 1200px) {
-}
-
+@media (min-width: 1200px) {}
 @media (min-width: 1400px) {}
-
-
-
+/*ICONO DE WHATSAPP*/
 .whatsapp {
     position: fixed;
     right: 20px;
@@ -206,10 +156,4 @@ a {
     background-color: #25D366;
     border-radius: 10px;
     height: 65px;
-  
-    
 }
-
-
-
-
