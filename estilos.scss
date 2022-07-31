@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2? familia= Poppins:ital,peso@0,400;0,500;1,500 & display=swap');
 @import "colores";
 @import "fuentes";
+/*corrección: incluir algunos conceptos de sass*/
+$estilos: (color: black, centro: center, ninguno: none);
+@mixin negrita {
+    font-weight: bold;
+}
 section {
     background-color: $colorprimario;
     font-family: $fuenteprincipal;
@@ -10,7 +15,6 @@ footer{
    background-color: $colorsecundario;
    font-family: $fuenteprincipal;
    color: $colorfuente;
-   
 }
 nav {
     background-color: $colorsecundario;
@@ -33,7 +37,7 @@ body {
 }
 /*COLOR DE FUENTE DEL NAV*/
 .container-fluid  nav ul li a {
-    text-decoration: none;
+    text-decoration: map-get($estilos, ninguno);
     color: $colorfuente;
     }
 /*iconos del footer*/ 
@@ -43,38 +47,38 @@ ion-icon {
     height: 4rem
 }
 ion-icon:hover {
-    color: black;
+    color: map-get($estilos, color);
 }
 /*TARJETAS MENU Y DOMICILIOS*/
 .card-text {
     font-family: $fuenteprincipal;
     font-size: 20px;
-    font-weight: bold;
+    @include negrita;
     color: $colorprimario;
 }
 .card-text:hover {
-    text-decoration: none;
-    color: black;
+    text-decoration: map-get($estilos, ninguno);
+    color: map-get($estilos, color);
 }
 .nav-link:hover{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+    text-decoration: map-get($estilos, ninguno);
+    color:  map-get($estilos, color);
+    @include negrita;
 }
 /*QUITAR EL HOVER PREDETERMINADO DE BOOSTRAP*/
 ul {
-    text-decoration: none;
+    text-decoration: map-get($estilos, ninguno);
     list-style-type: none;
-    text-align: center;
+    text-align: map-get($estilos, centro);
 }
 h1 {
-    text-align: center;
+    text-align: map-get($estilos, centro);
     font-family: $fuenteprincipal;
     color: $colorfuente;
 }
 h4 {
     color: $colorfuente;
-    text-align: center;
+    text-align: map-get($estilos, centro);
     font-family: $fuenteprincipal;
     font-size: 14px;
 }
@@ -92,11 +96,11 @@ h4 {
 
 }
 .card-body {
-    text-align: center;
+    text-align: map-get($estilos, centro);
 }
 .menufoot {
     font-size: 16px;
-    text-align: center;
+    text-align: map-get($estilos, centro);
     font-weight: bold;
 }
 .contacto {
@@ -109,11 +113,11 @@ h4 {
 }
 h3 {
     color: $colorfuente;
-    text-align: center;
+    text-align: map-get($estilos, centro);
     font-family:$fuenteprincipal;
 }
 a {
-    text-decoration: none;
+    text-decoration: map-get($estilos, ninguno);
 }
 @media (max-width: 576px) {
     .imagenind1 {
@@ -131,7 +135,7 @@ a {
         padding-right: 4px;
     }
     .navbar {
-        width: 96.5%;
+        width: 96.8%;
     }
     .headering {
        padding-left: 0px;
@@ -163,7 +167,7 @@ a {
     right: 20px;
     bottom: 15px;
     z-index: 1;
-    color: black;
+    color:  map-get($estilos, color);
     background-color: #25D366;
     border-radius: 10px;
     height: 65px;
