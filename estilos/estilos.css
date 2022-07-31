@@ -1,0 +1,180 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2? familia= Poppins:ital,peso@0,400;0,500;1,500 & display=swap");
+section {
+  background-color: #ef2b2d;
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  background-color: #af2626;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+nav {
+  background-color: #af2626;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.headering {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  background-color: #ef2b2d;
+}
+
+/*TARJETA DOMICILIOS*/
+.card-img-top-domicilios {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*COLOR DE FUENTE DEL NAV*/
+.container-fluid nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+ion-icon {
+  color: white;
+  width: 4rem;
+  height: 4rem;
+}
+
+ion-icon:hover {
+  color: black;
+}
+
+/*TARJETAS MENU Y DOMICILIOS*/
+.card-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ef2b2d;
+}
+
+.card-text:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/*QUITAR EL HOVER PREDETERMINADO DE BOOSTRAP*/
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.parraindex {
+  color: white;
+  font-style: italic;
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  font-size: 16px;
+}
+
+.card-text-nosotros {
+  text-align: justify;
+  font-size: 14px;
+  color: #ef2b2d;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.menufoot {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contacto {
+  border: solid 3px;
+  padding-bottom: 5px;
+  width: 95%;
+}
+
+.form-label-correo {
+  padding: 5px;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .imagenind1 {
+    width: 20rem;
+  }
+  .imagenind2 {
+    width: 5rem;
+  }
+  /*corrección solicitada por la profe: scroll horizontal de boostrap*/
+  .row {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .container-fluid {
+    padding-right: 4px;
+  }
+  .navbar {
+    width: 96.5%;
+  }
+  .headering {
+    padding-left: 0px;
+  }
+  /*correccion de la profe: hacer mas anchas las card pag nosotros*/
+  .cardnosotros {
+    width: 25rem;
+  }
+}
+@media (max-width: 766px) {
+  .imagenind1 {
+    width: 35rem;
+  }
+  .imagenind2 {
+    width: 33rem;
+  }
+}
+/*ICONO DE WHATSAPP*/
+.whatsapp {
+  position: fixed;
+  right: 20px;
+  bottom: 15px;
+  z-index: 1;
+  color: black;
+  background-color: #25D366;
+  border-radius: 10px;
+  height: 65px;
+}/*# sourceMappingURL=estilos.css.map */
