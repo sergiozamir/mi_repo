@@ -100,6 +100,10 @@ h4 {
 .contacto {
     border: solid 3px;
     padding-bottom: 5px;
+    width: 95%;
+}
+.form-label-correo {
+  padding: 5px;
 }
 h3 {
     color: $colorfuente;
@@ -122,7 +126,7 @@ a {
         margin-left: 0px;
     }
     .container-fluid{
-        padding-right: 0px;
+        padding-right: 4px;
     }
     .navbar {
         width: 96.5%;
