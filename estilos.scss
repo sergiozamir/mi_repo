@@ -10,6 +10,7 @@ footer{
    background-color: $colorsecundario;
    font-family: $fuenteprincipal;
    color: $colorfuente;
+   
 }
 nav {
     background-color: $colorsecundario;
@@ -35,6 +36,7 @@ body {
     text-decoration: none;
     color: $colorfuente;
     }
+/*iconos del footer*/ 
 ion-icon {
     color: $colorfuente;
     width: 4rem;
@@ -137,6 +139,10 @@ a {
     /*correccion de la profe: hacer mas anchas las card pag nosotros*/
     .cardnosotros {
         width: 25rem;
+    }
+    footer {
+       padding-right: 10px;
+       padding-bottom: 5px;
     }
 }    
 @media (max-width: 766px) {

@@ -40,6 +40,7 @@ body {
   color: white;
 }
 
+/*iconos del footer*/
 ion-icon {
   color: white;
   width: 4rem;
@@ -157,6 +158,10 @@ a {
   /*correccion de la profe: hacer mas anchas las card pag nosotros*/
   .cardnosotros {
     width: 25rem;
+  }
+  footer {
+    padding-right: 10px;
+    padding-bottom: 5px;
   }
 }
 @media (max-width: 766px) {
