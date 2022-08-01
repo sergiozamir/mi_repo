@@ -15,6 +15,9 @@ footer{
    background-color: $colorsecundario;
    font-family: $fuenteprincipal;
    color: $colorfuente;
+   width: 100%;
+   padding-bottom: 3px;
+   
 }
 nav {
     background-color: $colorsecundario;
@@ -23,11 +26,21 @@ nav {
 }
 .headering {
     width: 100%;
+    padding-right: 1px;
+    padding-left: 1px;
 }
 body {
     width: 100%;
     background-color: $colorprimario; 
 }
+/*correccion scroll horizontal*/
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.container-fluid{
+    margin-left: 0px;
+    }
 /*TARJETA DOMICILIOS*/
 .card-img-top-domicilios {
     width: 90%;
@@ -126,30 +139,15 @@ a {
     .imagenind2 {
         width: 5rem;
     }
-    /*corrección solicitada por la profe: scroll horizontal de boostrap*/
-    .row {
-        margin-right: 0px;
-        margin-left: 0px;
-    }
-    .container-fluid{
-        padding-right: 4px;
-    }
-    .navbar {
-        width: 96.8%;
-    }
-    .headering {
-       padding-left: 0px;
-    }
-    /*correccion de la profe: hacer mas anchas las card pag nosotros*/
+}
+    /*corrección de la profe: hacer mas anchas las card pag nosotros*/
     .cardnosotros {
         width: 25rem;
     }
     /*centrado de texto del footer*/
     footer {
-       padding-right: 10px;
-       padding-bottom: 5px;
+       padding-right: 10px
     }
-}    
 @media (max-width: 766px) {
     .imagenind1 {
         width: 35rem;

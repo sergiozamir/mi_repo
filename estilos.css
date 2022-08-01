@@ -10,6 +10,8 @@ footer {
   background-color: #af2626;
   font-family: "Poppins", sans-serif;
   color: white;
+  width: 100%;
+  padding-bottom: 3px;
 }
 
 nav {
@@ -20,11 +22,23 @@ nav {
 
 .headering {
   width: 100%;
+  padding-right: 1px;
+  padding-left: 1px;
 }
 
 body {
   width: 100%;
   background-color: #ef2b2d;
+}
+
+/*correccion scroll horizontal*/
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.container-fluid {
+  margin-left: 0px;
 }
 
 /*TARJETA DOMICILIOS*/
@@ -142,30 +156,17 @@ a {
   .imagenind2 {
     width: 5rem;
   }
-  /*corrección solicitada por la profe: scroll horizontal de boostrap*/
-  .row {
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-  .container-fluid {
-    padding-right: 4px;
-  }
-  .navbar {
-    width: 96.8%;
-  }
-  .headering {
-    padding-left: 0px;
-  }
-  /*correccion de la profe: hacer mas anchas las card pag nosotros*/
-  .cardnosotros {
-    width: 25rem;
-  }
-  /*centrado de texto del footer*/
-  footer {
-    padding-right: 10px;
-    padding-bottom: 5px;
-  }
 }
+/*corrección de la profe: hacer mas anchas las card pag nosotros*/
+.cardnosotros {
+  width: 25rem;
+}
+
+/*centrado de texto del footer*/
+footer {
+  padding-right: 10px;
+}
+
 @media (max-width: 766px) {
   .imagenind1 {
     width: 35rem;
